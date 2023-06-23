@@ -1,0 +1,64 @@
+body{
+    background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+form{
+    margin-top: 10px;
+}
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #4a94a7;
+    box-shadow: 0px 0px 10px #ffffff;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"], button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #3a9bac;
+    
+}
+
+button {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #008CBA;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    text-decoration: none;
+    background-color: #0077B5;
+}
+
+a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.al {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #03485f;
+    text-decoration: none;
+}
+
+.al:hover {
+    text-decoration: underline;
+}

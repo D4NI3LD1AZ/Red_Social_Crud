@@ -1,0 +1,114 @@
+body{
+    background: #fc00ff;  
+background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  
+background: linear-gradient(to right, #00dbde, #fc00ff); 
+
+}
+.logo{
+    float:left;
+    padding: 11px;
+}
+.login{
+    margin-top: 5px;
+    text-align: right;
+}
+.login a{
+    font-family:  Arial, sans-serif;
+    margin-left: 85%;
+     width: 10%;
+     border-radius: 3px;
+     display: block;
+     color: white;   
+     padding: 10px 12px;
+     text-align: center;
+     text-decoration: none;
+ }
+.login a:hover{
+    color: black;
+    background-color: #00cbfd;
+}
+
+.list{
+    margin-top: 1%;
+    display: flex;
+    margin-left: 16%;
+    list-style: none; 
+}
+
+nav {
+    background: #ef32d9;  
+background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  
+background: linear-gradient(to right, #89fffd, #ef32d9);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    color: rgb(255, 252, 252);
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #0eb7fa;
+    color: #000000;
+}
+form {
+    background-color: #0363b18c;
+    height: 45%;
+    padding-left: 20%;
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 10px;
+  }
+  
+  .lab {
+    padding-top:  20px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-right: 10px;
+  }
+  
+  .bus {
+    margin-top: 2%;
+    width: 50%;
+    margin-left: 2px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+  }
+  
+  .button2 {
+    margin-left: 5px;
+  padding: 5px 10px;
+  background-color: #07df97;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+  
+  .button2:hover {
+    background-color: #07df97ad;
+    }
+    
+    footer{
+        align-items: center;
+        margin-top: 5%;
+        background:rgba(240, 242, 250, 0.685);
+        padding: 2px;
+        padding-left: 40%;
+    }

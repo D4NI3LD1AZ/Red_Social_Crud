@@ -1,0 +1,7 @@
+model\publicacion\PublicacionVo.class
+model\publicacion\PublicacionDao.class
+controller\Publicacion.class
+controller\Usuario.class
+model\Conexion.class
+model\usuario\UsuarioDao.class
+model\usuario\UsuarioVo.class
